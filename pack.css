@@ -66,6 +66,7 @@ nav a.toggle{
     width: 30px;
     height: 21px;
     transition: 5s ease;
+    padding: 10px;
 }
 
 nav .toggle .bar{
@@ -114,7 +115,7 @@ nav .toggle .bar{
     justify-content: center;
     width: 100%;
     height: 600px;
-    background: url('Images/Dry Candy two.JPG');
+    background: url('images/dry candy two.jpg') margin;
     background-size: cover;
     background-repeat: no-repeat;
     animation: slide 16s infinite ease;
@@ -122,19 +123,19 @@ nav .toggle .bar{
 
 @keyframes slide {
     25%{
-        background: url('Images/Dounuts.jpg') no-repeat;
+        background: url('images/dounuts.jpg') no-repeat;
         background-size: cover;
     }
     50%{
-        background: url('Images/Cupcakes\ \(1\).jpg') no-repeat;
+        background: url('images/cupcakes\ \(1\).jpg') no-repeat;
         background-size: cover;
     }
     75%{
-        background: url('Images/Cupcakes\ \(3\).jpg') no-repeat;
+        background: url('images/cupcakes\ \(3\).jpg') no-repeat;
         background-size: cover;
     }
     100%{
-        background: url('Images/Cupcakes\ \(6\).jpg') no-repeat;
+        background: url('images/cupcakes\ \(6\).jpg') no-repeat;
         background-size: cover;
     }
 }
